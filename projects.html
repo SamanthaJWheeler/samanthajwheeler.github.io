@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Didact+Gothic&display=swap" rel="stylesheet">  
+  <style> @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Didact+Gothic&display=swap'); </style>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+   
+    <!-- My CSS Link -->
+  <link href="./styles.css" rel="stylesheet">
+    <!--Title-->
+    <title>Projects</title>
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-gradient-light">
+      <!-- <a class="navbar-brand" href="#">See More -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="swPortfolio.html">Home</a>
+            <span class="sr-only">(current)</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!--PROJECTS PAGE-->
+  <div class="container-fluid text-center"> <!--parent container-->
+    <div class="row justify-content-md-left">
+      <div class="col"> <!--change background color-->
+        <h1 class="text-center">Projects</h1>
+        <p class="text-center">This page showcases the projects I have completed throughout my journey to become a full stack developer. To check out how I did a project, check out the GitHub linked below the project!</p>
+      </div>
+    </div>
+<!--Map Real Time Tracking Project-->
+  <div class="container text-center">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <!--Project 1 Card-->
+      <div class="col">
+        <div class="p-3">
+          <div class="card" style="width: 18rem;">
+            <img src="images/maps.png" class="card-img-top" alt="Map">
+              <div class="card-body">
+                <h5 class="card-title">Real Time Bus Tracker</h5>
+                <p class="card-text">This real-time bus tracker application fetches live bus data from the MBTA API and animates the map to show the locations of buses in the selected area. Updates every 15 seconds.</p>
+                <a href="https://github.com/SamanthaJWheeler/RealTimeBusTracker" class="btn .btn">GitHub</a>
+              </div>
+            </div>
+        </div>
+      </div>
+        <!--End Project 1 Card-->
+
+        <!--Project 2 Card-->
+        <div class="col">
+          <div class="p-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/eyesImage.png" class="card-img-top" alt="Eyes">
+                <div class="card-body">
+                  <h5 class="card-title">Eyes Watching You!</h5>
+                  <p class="card-text">These unsettling eyes follow your every move, your mouse movement that is! Javascript was used to animate this project.</p>
+                  <a href="https://github.com/SamanthaJWheeler/EyeExercise/tree/main/eyeExercise" class="btn btn-primary">GitHub</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!--End Project 2 Card-->
+
+        <!--Project 3 Card-->
+        <div class="col">
+          <div class="p-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/pacManImage.png" class="card-img-top" alt="pacman">
+                <div class="card-body">
+                  <h5 class="card-title">PacMan</h5>
+                  <p class="card-text">Create as many PacMan as you want with the click of a button.  The PacMan you create will start moving at random velocity, and when they reach the edge of screen, they will change position to stay within the frame of the webpage.</p>
+                  <a href="https://github.com/SamanthaJWheeler/PacMan-Exercise" class="btn btn-primary">GitHub</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!--End Project 3 Card-->
+    </div>
+  </div>
+</div> <!--container closeout div-->
+<script src="./swProfile.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</body>
+</html>
