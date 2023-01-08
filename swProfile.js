@@ -4,6 +4,7 @@
 var textWrapper = document.querySelector('.ml1 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+
 anime.timeline({loop: true})
   .add({
     targets: '.ml1 .letter',
@@ -24,7 +25,7 @@ anime.timeline({loop: true})
   }).add({
     targets: '.ml1',
     opacity: 0,
-    duration: 1000,
+    duration: 10000000000000000000000000000000000000000,
     easing: "easeOutExpo",
     delay: 1000
-  });
+  }); 
